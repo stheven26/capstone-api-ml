@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 app = __name__(Flask)
-model = pickle.load(open("valoai_model.tflite", "rb"))
+model = pickle.load(open("converted_model(3).tflite", "rb"))
 
 # routing
 
